@@ -128,5 +128,33 @@ O desenvolvimento de uma aplicação envolve os mais diferentes tipos de informa
 
 A partir das classes é possível criar objetos, ou seja, uma classe é um “molde” para a criação de objetos.
 
-Podemos afirmar que classe é um Tipo Abstrato de Dados (TAD), ou seja, o código que define e implementa um novo tipo de informação.
+Podemos afirmar que classe é um Tipo Abstrato de Dados (TAD), ou seja, o código que define e implementa um novo tipo de informação.....
+
+Encapsulamento de Dados:
+Neste módulo, você vai conhecer o conceito de encapsulamento de dados, alterando a visibilidade dos membros e aplicando os métodos Getter e Setter.
+
+Uma das principais vantagens do conceito de orientação a objetos é a utilização de estruturas sem a necessidade de conhecer como elas foram implementadas.
+
+Para isso, o conceito de encapsulamento de dados torna-se essencial, pois envolve a proteção dos atributos ou métodos de uma classe.
+
+A ideia de encapsular o código vem com a premissa de proteger atributos e métodos de uma classe (tornando-os privados), de forma que somente a classe onde as declarações foram feitas tenham acesso.
+
+Esse conceito garante a integridade das informações e também facilita a utilização das implementaçõe
+
+Importante:
+
+Diferente da maioria das linguagens, como Java, PHP e C#, o Python (independente da nomenclatura), mantém todos os atributos e métodos públicos.
+
+Isso não significa que todas as funções de uma classe podem ser chamadas por outras ou, principalmente, que todos os atributos podem ser lidos e alterados sem cuidados.
+
+Para isso, na linguagem Python temos o que chamamos de convenção para aplicação destes conceitos de orientação a objetos.
+
+É muito importante ressaltar que a maioria das IDEs (inclusive o PyCharm) oculta, automaticamente, atributos ou classes quando utilizamos a convenção de forma correta.
+
+Métodos de Acesso (Get e Set):
+Para permitir o acesso aos atributos de forma controlada, a prática mais comum é a utilização de dois métodos de acesso: um retornando valor e outro que muda valor.
+
+Getters e Setters são usados na maioria das linguagens de programação orientada a objetos com o objetivo de garantir o princípio de encapsulamento de dados.
+
+Os métodos são utilizados para implementações que alteram os valores internos da classe ou que retornam valores dela.
 
